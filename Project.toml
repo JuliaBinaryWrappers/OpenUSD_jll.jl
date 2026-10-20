@@ -1,0 +1,16 @@
+version = "25.11.0+0"
+name = "OpenUSD_jll"
+uuid = "87d82b69-0bda-58d4-935e-d17997bfb252"
+
+[deps]
+oneTBB_jll = "1317d2d5-d96f-522e-a858-c73665f53c3e"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+oneTBB_jll = "2022.0.0"
+Libdl = "< 0.0.1, 1"
+julia = "1.10"
+JLLWrappers = "1.7.0"
+Artifacts = "< 0.0.1, 1"

@@ -1,0 +1,57 @@
+[[OpenUSD]]
+arch = "aarch64"
+git-tree-sha1 = "d0fa26fd64a13aa0d21f5bd2f0ba23213582c76d"
+os = "macos"
+
+    [[OpenUSD.download]]
+    sha256 = "546eb12c6f72b936eb58910ce5ab53df969680c04937c6c716deb9673f285ce8"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.aarch64-apple-darwin.tar.gz"
+[[OpenUSD]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4744ec87ecfd61aed39faee7eba410fb78824e53"
+libc = "glibc"
+os = "linux"
+
+    [[OpenUSD.download]]
+    sha256 = "bee41a7224b8f425868df3d2efb86eafed66621e88b43384203bb4760ba9f27c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[OpenUSD]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7d03166a4710634ab4e6ff15cb70cc9456daaedd"
+libc = "musl"
+os = "linux"
+
+    [[OpenUSD.download]]
+    sha256 = "f1941fd01684a0129fc1c0ec06fd7fe24c053d7dadfcdc66c3268cf9ca24cd16"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.aarch64-linux-musl-cxx11.tar.gz"
+[[OpenUSD]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2fb062e6213829e63215bfa15c5d006f2a462efe"
+libc = "glibc"
+os = "linux"
+
+    [[OpenUSD.download]]
+    sha256 = "1d20fb21f4394b2beacdd0d7656b0d4d9826e1fa14d58f5369e1244e8d20f541"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OpenUSD]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2aaf6963c3f89a62609e58598d475041bd2d9768"
+libc = "musl"
+os = "linux"
+
+    [[OpenUSD.download]]
+    sha256 = "8d653c976942118d8ce371915f8c4d2a07873f63cd7b8fe6c46fefc8fa1e54fa"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.x86_64-linux-musl-cxx11.tar.gz"
+[[OpenUSD]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "473514fe1ca305982331cb05db2cf7ab65ed9a18"
+os = "windows"
+
+    [[OpenUSD.download]]
+    sha256 = "a26bb50f669dcac6913f7d3af0ee156cc4f369b5846fce30d58c8075d6fa2ff1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenUSD_jll.jl/releases/download/OpenUSD-v25.11.0+0/OpenUSD.v25.11.0.x86_64-w64-mingw32-cxx11.tar.gz"
